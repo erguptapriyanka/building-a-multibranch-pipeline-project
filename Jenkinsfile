@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mkdir -p /var/www/html'
+                sh 'whoami'
             }
         }
     }
