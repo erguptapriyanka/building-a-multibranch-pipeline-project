@@ -21,8 +21,8 @@ pipeline {
     post {
     always {
         
-             echo ' "Failed Pipeline: ${currentBuild.fullDisplayName}" '
-             echo '"Something is wrong with ${env.BUILD_URL}"'
+             echo "Failed Pipeline: ${currentBuild.fullDisplayName}"
+             echo "Something is wrong with ${env.BUILD_URL}"
     }
 }
 }
